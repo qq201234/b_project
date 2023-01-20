@@ -1,0 +1,60 @@
+$orange1: #FB570B;
+$orange2: #FC8F05;
+
+.signin {
+  width: 60%;
+  height: 100vh;
+  margin: 0 auto;
+  font-size: 20px;
+
+  .signin_title {
+    text-align: center;
+    h2 {
+      font-weight: bold;
+      padding: 30px;
+      span {
+        color: $orange1;
+      }
+    }
+  }
+
+  .signin_container {
+    font-weight: bold;
+
+    .form-control {
+      padding: 10px;
+      margin: 10px;
+    }
+
+    .signin_wrapper {
+      text-align: center;
+      // padding: 10px;
+      // margin: 10px;
+      button {
+        width: 100%;
+        padding: 10px;
+        margin: 5px;
+        border: none;
+        border-radius: 10px;
+        font-weight: bold;
+        color: white;
+      }
+      .btnSignin {
+        background-color: $orange1;
+      }
+      .btnFacebook {
+        background-color: #3B5998;
+      }
+      .btnGoogle {
+        background-color: #FF5050;
+      }
+      .signin_wrap {
+        margin: 10px;
+        a {
+          color: #000000;
+          text-decoration: none;
+        }
+      }
+    }
+  }
+}

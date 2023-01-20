@@ -1,0 +1,94 @@
+$orange1: #FB570B;
+$orange2: #FC8F05;
+
+.collect {
+    width: 80%;
+    height: 100vh;
+    margin: 0 auto;
+    font-weight: bold;
+
+    .collect_title {
+        text-align: center;
+        h2 {
+            font-weight: bold;
+            padding: 30px;
+            span {
+                color: $orange1;
+            }
+        }
+    }
+
+    .collect_container {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .collect_left {
+            width: 20%;
+            line-height: 50px;
+            letter-spacing: 3px;
+            text-align: center;
+            h5 {
+                font-weight: bold;
+                span{
+                    color: $orange1;
+                }
+            }
+            ul {
+                list-style: none;
+                span {
+                    border: 10px solid $orange2;
+                    background-color: $orange2;
+                    border-radius: 10px;
+                }
+            }
+        }
+
+        .collect_right {
+            width: 80%;
+            text-align: right;
+
+            .right_cards {
+                display: flex;
+                .cards {
+                    padding: 10px;
+                    .card-title {
+                        font-weight: bold;
+                        font-size: 18px;
+                        text-align: center;
+                    }
+                    .btn1 {
+                        background-color: $orange2;
+                        color: white;
+                        border: none;
+                        font-weight: bold;
+                    }
+                    h6 {
+                        font-weight: bold;
+                    }
+                    .btn2 {
+                        border-radius: 10px;
+                        background-color: white;
+                        color: #CF3341;
+                        font-weight: bold;
+                    }
+                    .btn3 {
+                        border-radius: 10px;
+                        background-color: #CF3341;
+                        color: white;
+                        border: none;
+                        font-weight: bold;
+                    }
+                }
+            }
+
+            .right_pages {
+                display: flex;
+                justify-content: center;
+                padding: 20px;
+            }
+        }
+
+    }
+}
